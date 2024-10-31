@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FoodZero</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mycss/styles.css">
+</head> 
+<body>
+    <div class="reg-bg">
+        <form class="login-container" action="php/check.php" method="post">
+            <div class="">
+                <h3>Регистрация</h3>
+            </div>
+            <input type="text" class="form-input" placeholder="ФИО" name="fio">
+            <input type="number" class="form-input" placeholder="Номер телефона" name="phone">
+            <input type="email" class="form-input" placeholder="Email" name="email"> 
+            <input type="password" class="form-input" placeholder="Придумайте пароль" name="password">
+            <input type="password" class="form-input" placeholder="Повторите пароль" name="repeatpassword">  
+            <div class="" style="display: flex; justify-content: center;">
+                <button type='submit' class="login-button">Зарегистрироваться</button>
+            </div>   
+        </form>
+    </div>
+</body>
+</html>
